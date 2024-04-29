@@ -15,8 +15,8 @@
 #################################################################
 #!/bin/bash
 
-# you will need dialog package to run the following apt install dialog
-# IP addresses to test
+#you will need dialog package to run the following apt install dialog#
+# IP addresses to test#
 addresses=(
     "NewYork1:172.36.128.1"
     "NewYorkClient1:172.36.128.2"

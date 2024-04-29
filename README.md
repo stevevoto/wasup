@@ -1,8 +1,7 @@
-wasup
-WASUP allows users to put a string and Ip to be checked everytime they want to verify all their devices are running or connecting. 
+**WASUP allows users to put a string and Ip to be checked everytime they want to verify all their devices are running or connecting.**
+Simple Ping script to validate network health.
 
-Simple Ping script to validate network health. 
-Simply add all your hosts you want to ping with their  Name and IP:
+Simply add all your hosts you want to ping with their  Name and IP:*
 
  ____  _                 _            ____  _             
 / ___|(_)_ __ ___  _ __ | | ___      |  _ \(_)_ __   __ _ 

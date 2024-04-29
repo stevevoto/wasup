@@ -1,8 +1,8 @@
-# wasup
-# WASUP allows users to put a string and Ip to be checked everytime they want to verify all their devices are running or connecting. 
+wasup
+WASUP allows users to put a string and Ip to be checked everytime they want to verify all their devices are running or connecting. 
 
-# Simple Ping script to validate network health. 
-# Simply add all your hosts you want to ping with their  Name and IP:
+Simple Ping script to validate network health. 
+Simply add all your hosts you want to ping with their  Name and IP:
 
  ____  _                 _            ____  _             
 / ___|(_)_ __ ___  _ __ | | ___      |  _ \(_)_ __   __ _ 
@@ -13,8 +13,8 @@
 
 #!/bin/bash
 
-# you will need dialog package to run the following apt install dialog
-# IP addresses to test#
+#you will need dialog package to run the following apt install dialog
+#IP addresses to test
 addresses=(
     "NewYork1:172.36.128.1"
     "NewYorkClient1:172.36.128.2"
@@ -42,7 +42,7 @@ addresses=(
     "InternetTest:8.8.8.8"
 )
 
-# Function to perform ping test and return result
+#Function to perform ping test and return result
 perform_ping() {
     destination_name=$1
     destination_ip=$2
@@ -53,7 +53,7 @@ perform_ping() {
     fi
 }
 
-# Display results
+#Display results
 for address in "${addresses[@]}"; do
     address_parts=(${address//:/ })
     destination_name=${address_parts[0]}
@@ -61,5 +61,5 @@ for address in "${addresses[@]}"; do
     perform_ping "$destination_name" "$destination_ip"
 done
 
-# Prompt user to press Enter to return to CLI
+#Prompt user to press Enter to return to CLI
 #read -p "Press Enter to continue..."

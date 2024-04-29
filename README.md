@@ -3,6 +3,8 @@
 **WASUP** allows users to check the connectivity of their devices by pinging them using a provided IP address and name.
 
 ![WASUP Logo](https://placehold.it/120x120&text=WASUP)
+<img width="376" alt="image" src="https://github.com/stevevoto/wasup/assets/22358076/0bfa42d3-5d23-4f2c-9b2d-a9f5449a25d4">
+
 
 ## Overview
 

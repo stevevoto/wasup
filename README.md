@@ -2,20 +2,18 @@
 # WASUP allows users to put a string and Ip to be checked everytime they want to verify all their devices are running or connecting. 
 
 # Simple Ping script to validate network health. 
-# Simply add all your hosts you want to ping with their  Name and IP  ~SV
+# Simply add all your hosts you want to ping with their  Name and IP  ~x
 
 
-##################################################################
-#  ____  _                 _            ____  _             
-# / ___|(_)_ __ ___  _ __ | | ___      |  _ \(_)_ __   __ _ 
-# \___ \| | '_ ` _ \| '_ \| |/ _ \_____| |_) | | '_ \ / _` |
-#  ___) | | | | | | | |_) | |  __|_____|  __/| | | | | (_| |
-# |____/|_|_| |_| |_| .__/|_|\___|     |_|   |_|_| |_|\__, |
-#                  |_|                               |___/ 
-#################################################################
+
+# ____  __  _  _  ____  __    ____    ____  __  __ _   ___ 
+#/ ___)(  )( \/ )(  _ \(  )  (  __)  (  _ \(  )(  ( \ / __)
+#\___ \ )( / \/ \ ) __// (_/\ ) _)    ) __/ )( /    /( (_ \
+#(____/(__)\_)(_/(__)  \____/(____)  (__)  (__)\_)__) \___/
+
 #!/bin/bash
 
-#you will need dialog package to run the following apt install dialog#
+# you will need dialog package to run the following apt install dialog
 # IP addresses to test#
 addresses=(
     "NewYork1:172.36.128.1"

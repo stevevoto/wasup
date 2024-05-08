@@ -28,4 +28,10 @@
 ## Sample Usage
 
 ```bash
-./wasup.sh
+Install as root
+1. git clone https://github.com/stevevoto/wasup
+2. cd wasup
+3. vi wasup.sh and modify ping IP's and Names only 
+4. cp wasup.sh /usr/bin/wasup
+5. chmod +x /usr/bin/wasup
+6. run the "wasup" command from cli
